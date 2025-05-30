@@ -1,0 +1,17 @@
+.ratingsCardContainer {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  /* row-gap: 1rem; */
+}
+
+.card {
+  background-color: hsl(300, 24%, 96%);
+  color: hsl(300, 43%, 22%) ;
+  justify-self: center;
+  border-radius: .5rem;
+
+}
+
+.icon {
+  display: block;
+}
