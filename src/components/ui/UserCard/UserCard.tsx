@@ -14,12 +14,12 @@ const UserCard = ({ image, name, title, information }: CardProps) => {
       <section className={styles.userCardContainer}>
         <div className={styles.detailsContainer}>
           <img src={image} alt={image} />
-          <div>
-            <h3>{name}</h3>
-            <h3>{title}</h3>
+          <div className={styles.nameAndTitle}>
+            <h3 className={styles.name}>{name}</h3>
+            <h3 className={styles.title}>{title}</h3>
           </div>
         </div>
-        <p>{information}</p>
+        <p className={styles.information}>" {information} "</p>
       </section>
     </>
   );
